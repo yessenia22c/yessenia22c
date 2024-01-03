@@ -1,0 +1,46 @@
+/* You can add global styles to this file, and also import other style files */
+@font-face {
+    font-family: 'ArimoBold';
+    src: url('./assets/fonts/Arimo-Bold.ttf');
+}
+@font-face {
+    font-family: 'ArimoRegular';
+    src: url('./assets/fonts/Arimo-Regular.ttf');
+}
+
+
+body {
+  font-family: 'Roboto', sans-serif;
+  margin: 0;
+  padding: 0;
+  color-scheme: dark;
+  background-color: #001c2a; 
+}
+h1{
+    color: #E7FFFA;
+    font-family: 'ArimoBold';
+    font-style: normal;
+    font-size: 28px;
+    line-height: 1.2;
+    letter-spacing: 3px;
+}
+h2{
+    color: #00BA95;
+    font-family: 'ArimoRegular';
+    font-style: normal;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 3px;
+
+}
+p{
+    color: #E7FFFA;
+    font-family: 'ArimoRegular';
+    font-style: normal;
+    font-size: 16px;
+    line-height: 1.2;
+    letter-spacing: 2px;
+    text-decoration: none;
+    text-transform: none;
+}
+

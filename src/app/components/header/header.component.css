@@ -1,0 +1,26 @@
+.contenedor-header{
+    display: flex;
+    margin: 0 auto;
+    padding: 0 32px;
+    max-width: 1200px;
+}
+ul{
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    
+}
+li a{
+    margin: 0 16px;
+    text-decoration: none;
+}
+
+.text-header{
+    color: #E7FFFA;
+    font-family: 'ArimoBold';
+    font-style: normal;
+    font-size: 28px;
+    line-height: 1.2;
+    letter-spacing: 3px;
+}
