@@ -2,7 +2,7 @@
     display: flex;
     margin: 0 auto;
     padding: 0 32px;
-    max-width: 1200px;
+    max-width: 920px;
 }
 ul{
     display: flex;
@@ -18,9 +18,23 @@ li a{
 
 .text-header{
     color: #E7FFFA;
-    font-family: 'ArimoBold';
+    font-family: 'ArimoRegular';
     font-style: normal;
-    font-size: 28px;
+    font-size: 14px;
     line-height: 1.2;
     letter-spacing: 3px;
+}
+
+.icono-header{
+    fill: #E7FFFA;
+    font-size: 20px;
+    margin-right: 8px;
+}
+
+.material-symbols-outlined {
+  font-variation-settings:
+  'FILL' 0,
+  'wght' 400,
+  'GRAD' 0,
+  'opsz' 24
 }

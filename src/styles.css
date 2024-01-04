@@ -1,4 +1,6 @@
 /* You can add global styles to this file, and also import other style files */
+
+@import 'material-symbols';
 @font-face {
     font-family: 'ArimoBold';
     src: url('./assets/fonts/Arimo-Bold.ttf');
@@ -44,3 +46,6 @@ p{
     text-transform: none;
 }
 
+svg{
+    color: #E7FFFA;
+}
