@@ -1,9 +1,17 @@
 .contenedor-header{
     display: flex;
     margin: 0 auto;
-    padding: 0 32px;
+    align-items: center;
+    justify-content: center;
+    padding: 18px 31px 18px 31px;
     max-width: 920px;
+    border: 1px solid #E7FFFA;
+    border-radius: 30px;
+    position: sticky;
+    z-index: 50;
+    top: 0;
 }
+
 ul{
     display: flex;
     list-style: none;
@@ -26,15 +34,37 @@ li a{
 }
 
 .icono-header{
-    fill: #E7FFFA;
+    color: #E7FFFA;
     font-size: 20px;
     margin-right: 8px;
+    display: flex;
+    align-items: center;
 }
 
-.material-symbols-outlined {
+#header-nav {
+    animation: blur linear both;
+    animation-timeline: scroll(root block);
+}
+@keyframes blur {
+    0% {
+        box-shadow: 0 5px 50px -5px #0000001a,0 0 0 1px #0000004d;
+        background: rgba(0, 26, 40, 0.562);
+        -webkit-backdrop-filter: blur(0px);
+        backdrop-filter: blur(0px)
+    }
+    100% {
+        box-shadow: 0 5px 50px -5px #00251d1a,0 0 0 1px #0127224d;
+        background: rgba(0, 26, 40, 0.658);
+        -webkit-backdrop-filter: blur(10px);
+        backdrop-filter: blur(10px)
+    }
+}
+
+/* .material-symbols-outlined {
   font-variation-settings:
   'FILL' 0,
   'wght' 400,
   'GRAD' 0,
   'opsz' 24
-}
+} */
+

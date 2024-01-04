@@ -9,10 +9,22 @@
     font-family: 'ArimoRegular';
     src: url('./assets/fonts/Arimo-Regular.ttf');
 }
+@font-face {
+    font-family: 'ArimoItalic';
+    src: url('./assets/fonts/Arimo-Italic.ttf');
+}
+@font-face {
+    font-family: 'ArimoBoldItalic';
+    src: url('./assets/fonts/Arimo-BoldItalic.ttf');
+}
+@font-face {
+    font-family: 'ArimoMedium';
+    src: url('./assets/fonts/Arimo-Medium.ttf');
+}
 
 
 body {
-  font-family: 'Roboto', sans-serif;
+  font-family: 'ArimoRegular', 'sans-serif', 'Roboto';
   margin: 0;
   padding: 0;
   color-scheme: dark;
@@ -25,6 +37,8 @@ h1{
     font-size: 28px;
     line-height: 1.2;
     letter-spacing: 3px;
+    margin: 0;
+    margin-top: 8px;
 }
 h2{
     color: #00BA95;
@@ -33,19 +47,61 @@ h2{
     font-size: 20px;
     line-height: 1.2;
     letter-spacing: 3px;
-
+    margin-top: 5px;
+    margin-bottom: 5px;
+    text-wrap: balance;
 }
 p{
     color: #E7FFFA;
     font-family: 'ArimoRegular';
     font-style: normal;
-    font-size: 16px;
+    font-size: 14px;
+    line-height: 1.5;
+    letter-spacing: 1px;
+    text-decoration: none;
+    text-transform: none;
+    text-wrap: balance;
+}
+
+
+ul li {
+    color: #E7FFFA;
+    font-family: 'ArimoRegular';
+    font-style: normal;
+    font-size: 14px;
     line-height: 1.2;
-    letter-spacing: 2px;
+    letter-spacing: 1px;
     text-decoration: none;
     text-transform: none;
 }
-
-svg{
+ol li {
     color: #E7FFFA;
+    font-family: 'ArimoRegular';
+    font-style: normal;
+    font-size: 14px;
+    line-height: 1.2;
+    letter-spacing: 1px;
+    text-decoration: none;
+    text-transform: none;
+}
+a{
+    color: #E7FFFA;
+    font-family: 'ArimoRegular';
+    font-style: normal;
+    font-size: 14px;
+    line-height: 1.2;
+    letter-spacing: 1px;
+    text-decoration: none;
+    text-transform: none;
+}
+span{
+    color: #E7FFFA;
+    font-family: 'ArimoRegular';
+    font-style: normal;
+    font-size: 14px;
+    line-height: 1.2;
+    letter-spacing: 1px;
+    text-decoration: none;
+    text-transform: none;
+    
 }

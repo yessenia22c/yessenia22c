@@ -1,0 +1,23 @@
+.img-perfil{
+    width: 240px;
+    height: 240px;
+    border-radius: 50%;
+    
+}
+
+.contenedor-imagen{
+    padding-right: 30px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.info-contenedor{
+    display: flex;
+    flex-direction: row;
+}
+
+.descripcion{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
