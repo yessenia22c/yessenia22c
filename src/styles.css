@@ -52,6 +52,7 @@ h2{
     text-wrap: balance;
 }
 p{
+    display: flex;
     color: #E7FFFA;
     font-family: 'ArimoRegular';
     font-style: normal;

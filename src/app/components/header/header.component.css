@@ -4,10 +4,8 @@
     align-items: center;
     justify-content: center;
     padding: 18px 31px 18px 31px;
-    max-width: 920px;
-    border: 1px solid #E7FFFA;
-    border-radius: 30px;
     position: sticky;
+    width: auto;
     z-index: 50;
     top: 0;
 }
@@ -19,26 +17,28 @@ ul{
     padding: 0;
     
 }
-li a{
+/* li a{
     margin: 0 16px;
     text-decoration: none;
-}
+} */
 
 .text-header{
     color: #E7FFFA;
     font-family: 'ArimoRegular';
     font-style: normal;
     font-size: 14px;
-    line-height: 1.2;
-    letter-spacing: 3px;
+    letter-spacing: 1px;
+    margin-left: 8px;
+    margin-right: 8px;
 }
 
 .icono-header{
+    display: flex;
+    align-items: center;
     color: #E7FFFA;
     font-size: 20px;
     margin-right: 8px;
-    display: flex;
-    align-items: center;
+    
 }
 
 #header-nav {
@@ -68,3 +68,72 @@ li a{
   'opsz' 24
 } */
 
+.nav{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    border: 1px solid #E7FFFA;
+    max-width: 920px;
+    border-radius: 30px;
+    padding: 8px;
+}
+
+@media (min-width: 640px) {
+    .sm\:mt-0 {
+        margin-top:0
+    }
+
+    .sm\:text-center {
+        text-align: center
+    }
+}
+
+@media (min-width: 768px) {
+    .md\:me-6 {
+        margin-inline-end:1.5rem
+    }
+
+    .md\:flex {
+        display: flex
+    }
+
+    .md\:size-6 {
+        width: 1.5rem;
+        height: 1.5rem
+    }
+
+    .md\:items-center {
+        align-items: center
+    }
+
+    .md\:justify-between {
+        justify-content: space-between
+    }
+
+    .md\:px-4 {
+        padding-left: 1rem;
+        padding-right: 1rem
+    }
+
+    .md\:py-2 {
+        padding-top: .5rem;
+        padding-bottom: .5rem
+    }
+
+    .md\:text-4xl {
+        font-size: 2.25rem;
+        line-height: 2.5rem
+    }
+
+    .md\:text-base {
+        font-size: 1rem;
+        line-height: 1.5rem
+    }
+}
+
+
+/* @media (min-width: 1280px) {
+    .contenedor-header{
+        width:1120px
+    }
+} */
