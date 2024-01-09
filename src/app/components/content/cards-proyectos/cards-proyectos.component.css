@@ -19,10 +19,14 @@
     
     
 }
-
-.flip-container:hover .card {
+/* Para cer que se voltee la tarjeta */
+/* .flip-container:hover .card {
     transform: rotateY(180deg);
-}
+} */
+.card-flipped .card {
+    
+    transform: rotateY(180deg);
+  }
 
 .front, .back {
     display: flex;
@@ -47,7 +51,7 @@
     color: #fff;
     border: 1px solid #ffffff22;
     background-color: #282c34;
-    background: linear-gradient(0deg, rgba(40, 44, 52, 1) 0%, rgba(17, 0, 32, .5) 100%);
+    background: linear-gradient(0deg, rgba(0, 6, 22, 0.281) 0%, rgba(20, 77, 67, 0.486) 100%);
     box-shadow: 0 7px 20px 5px #0000001e;
     backdrop-filter: blur(7px);
     -webkit-backdrop-filter: blur(7px);
@@ -58,7 +62,7 @@
     color: #fff;
     border: 1px solid #ffffff22;
     background-color: #282c34;
-    background: linear-gradient(0deg, rgba(40, 44, 52, 1) 0%, rgba(17, 0, 32, .5) 100%);
+    background: linear-gradient(0deg, rgba(0, 6, 22, 0.281) 0%, rgba(20, 77, 67, 0.486) 100%);
     box-shadow: 0 7px 20px 5px #0000001e;
     backdrop-filter: blur(7px);
     -webkit-backdrop-filter: blur(7px);
@@ -95,4 +99,30 @@ img {
     grid-template-columns: repeat(auto-fill, minmax(400px, 1fr));
     gap: 16px;
     
+}
+button{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    padding: 5px;
+    border: 1.5px solid #00BA95;
+    border-radius: 10px;
+    background-color: rgba(0, 6, 22, 0.281);
+    margin-top: 18px;
+    margin-right: 5px;
+}
+button:hover{
+    background-color: #00ba952a;
+    color: #fff;
+    cursor: pointer;
+}
+
+.contenedor-botones{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    
+    margin-top: 18px;
 }
