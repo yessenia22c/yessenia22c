@@ -27,6 +27,10 @@
     text-align: center;
     padding: 26px;
 }
+.contenedor-botones-info{
+    display: flex;
+    justify-content: center;
+}
 
 /* Media query para pantallas de 600px o más */
 @media (min-width: 640px) {
@@ -43,7 +47,31 @@
         justify-items: flex-start;
         text-align: start;
     }
+    .contenedor-botones-info{
+        justify-content: flex-start;
+    }
 }
 .texto-descripcion{
     font-size: 18px;
+}
+
+
+.mi-button{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+    border: 1.5px solid #00BA95;
+    border-radius: 10px;
+    background-color: rgba(0, 6, 22, 0.281);
+    margin-top: 18px;
+    margin-right: 5px;
+    
+}
+.mi-button:hover{
+    background-color: #00ba952a;
+    color: #fff;
+    cursor: pointer;
+    animation: ease-in 2s;
 }
