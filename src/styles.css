@@ -2,29 +2,33 @@
 
 @import 'material-symbols';
 @font-face {
-    font-family: 'ArimoBold';
-    src: url('./assets/fonts/Arimo-Bold.ttf');
+    font-family: 'OnestBold';
+    src: url('./assets/fonts/Onest-Bold.ttf');
 }
 @font-face {
-    font-family: 'ArimoRegular';
-    src: url('./assets/fonts/Arimo-Regular.ttf');
+    font-family: 'OnestRegular';
+    src: url('./assets/fonts/Onest-Regular.ttf');
 }
 @font-face {
-    font-family: 'ArimoItalic';
-    src: url('./assets/fonts/Arimo-Italic.ttf');
+    font-family: 'OnetsExtraBold';
+    src: url('./assets/fonts/Onest-ExtraBold.ttf');
 }
 @font-face {
-    font-family: 'ArimoBoldItalic';
-    src: url('./assets/fonts/Arimo-BoldItalic.ttf');
+    font-family: 'OnestSemibold';
+    src: url('./assets/fonts/Onest-SemiBold.ttf');
 }
 @font-face {
-    font-family: 'ArimoMedium';
-    src: url('./assets/fonts/Arimo-Medium.ttf');
+    font-family: 'OnestMedium';
+    src: url('./assets/fonts/Onest-Medium.ttf');
+}
+@font-face {
+    font-family: 'OnestThin';
+    src: url('./assets/fonts/Onest-Thin.ttf');
 }
 
 
 body {
-  font-family: 'ArimoRegular', 'sans-serif', 'Roboto';
+  font-family: 'OnestRegular', 'sans-serif', 'Roboto';
   margin: 0;
   padding: 0;
   color-scheme: dark;
@@ -32,7 +36,7 @@ body {
 }
 h1{
     color: #E7FFFA;
-    font-family: 'ArimoBold';
+    font-family: 'OnestBold';
     font-style: normal;
     font-size: 28px;
     line-height: 1.2;
@@ -42,19 +46,18 @@ h1{
 }
 h2{
     color: #00BA95;
-    font-family: 'ArimoRegular';
+    font-family: 'OnestBold';
     font-style: normal;
-    font-size: 20px;
+    font-size: 24px;
     line-height: 2;
     letter-spacing: 2px;
-    margin-top: 5px;
-    margin-bottom: 5px;
+    margin-top: 15px;
+    margin-bottom: 20px;
     text-wrap: balance;
 }
 p{
-    display: flex;
     color: #E7FFFA;
-    font-family: 'ArimoRegular';
+    font-family: 'OnestRegular';
     font-style: normal;
     font-size: 15px;
     line-height: 1.5;
@@ -67,7 +70,7 @@ p{
 
 ul li {
     color: #E7FFFA;
-    font-family: 'ArimoRegular';
+    font-family: 'OnestRegular';
     font-style: normal;
     font-size: 14px;
     line-height: 1.2;
@@ -77,7 +80,7 @@ ul li {
 }
 ol li {
     color: #E7FFFA;
-    font-family: 'ArimoRegular';
+    font-family: 'OnestRegular';
     font-style: normal;
     font-size: 14px;
     line-height: 1.2;
@@ -87,7 +90,7 @@ ol li {
 }
 a{
     color: #E7FFFA;
-    font-family: 'ArimoRegular';
+    font-family: 'OnestRegular';
     font-style: normal;
     font-size: 14px;
     line-height: 1.2;
@@ -97,11 +100,11 @@ a{
 }
 span{
     color: #E7FFFA;
-    font-family: 'ArimoRegular';
+    font-family: 'OnestRegular';
     font-style: normal;
-    font-size: 14px;
+    /* font-size: 14px;
     line-height: 1.2;
-    letter-spacing: 1px;
+    letter-spacing: 1px; */
     text-decoration: none;
     text-transform: none;
     
@@ -111,12 +114,13 @@ button{
     flex-direction: row;
     align-items: center;
     justify-content: center;
-    padding: 10px;
+    padding: 6px;
     border: 1.5px solid #00BA95;
     border-radius: 10px;
     background-color: rgba(0, 6, 22, 0.281);
-    margin-top: 18px;
+    margin-top: 8px;
     margin-right: 5px;
+    font-family: 'OnestThin';
     
 }
 button:hover{
@@ -124,4 +128,32 @@ button:hover{
     color: #fff;
     cursor: pointer;
     animation: ease-in 2s;
+}
+
+@media screen and (min-width: 400px) {
+    h1{
+        font-size: 24px;
+    }
+    h2{
+        font-size: 20px;
+    }
+    p{
+        font-size: 14px;
+    }
+    ul li {
+        font-size: 18px;
+    }
+    ol li {
+        font-size: 14px;
+    }
+    a{
+        font-size: 12px;
+    }
+    span{
+        font-size: 12px;
+    }
+    button{
+        font-size: 12px;
+    }
+    
 }

@@ -44,7 +44,16 @@
     box-sizing: border-box;
 
 }
-
+h2{
+    font-size: 22px ;
+    padding: 0px;
+    margin: 0px 0px 0px 0px;
+}
+p{
+    font-size: 15px ;
+    padding: 0px;
+    margin: 0px 0px 0px 0px;
+}
 .front {
     /* background-color: #004C78; */
     color: #fff;
@@ -90,6 +99,7 @@ img {
         color: #fff;
         letter-spacing: normal;
         text-wrap: balance;
+        margin-bottom: 0px;
     }
 }
 

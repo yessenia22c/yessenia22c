@@ -56,7 +56,7 @@
 
 .text-trabajo {
   color: #ffffff;
-  font-family: 'ArimoBold';
+  font-family: 'OnestBold';
   font-size: 18px;
   letter-spacing: normal;
 }
@@ -140,7 +140,7 @@
 
 .time-wrapper {
   display: inline;
-  font-family: 'ArimoItalic';
+  font-family: 'OnestThin';
   line-height: 1em;
   font-size: 14px;
   color: rgb(255, 255, 255);
