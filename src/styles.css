@@ -25,6 +25,10 @@
     font-family: 'OnestThin';
     src: url('./assets/fonts/Onest-Thin.ttf');
 }
+@font-face {
+    font-family: 'OnestLight';
+    src: url('./assets/fonts/Onest-Light.ttf');
+}
 
 
 body {
