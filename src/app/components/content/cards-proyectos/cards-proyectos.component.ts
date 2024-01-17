@@ -25,7 +25,7 @@ export class CardsProyectosComponent {
     this.tarjetas[index].isFlipped = !this.tarjetas[index].isFlipped;
   }
   linkSisicap() {
-    window.open('https://sistema.eliteiso.org', '_blank');
+    window.open('https://cliente-angular-9k9.pages.dev', '_blank');
   }
   linkTienda() {
     window.open('https://www.eliteiso.org/cursos', '_blank');
