@@ -1,0 +1,90 @@
+.contenedor-contacto{
+    background-color: rgba(5, 73, 71, 0.324);
+    padding: 18px;
+    border-radius: 20px;
+    
+    border: 1px solid #00ba95;
+}
+.formulario{
+    /* display: flex;
+    flex-direction: column; */
+    display: grid;
+    grid-template-columns: minmax(100px, 1fr) 1fr;
+    gap: 16px;
+}
+
+
+.formulario div:nth-child(3){
+    grid-column: 1 / 3;
+}
+
+label{
+    display: flex;
+    flex-direction: column;
+    margin: 10px 0;
+    color: rgb(219, 238, 255);
+    font-family: 'OnestRegular';
+}
+input, textarea{
+    box-sizing: border-box;
+    border-radius: 10px;
+    border: none;
+    background-color: rgb(219, 238, 255);
+    color: rgb(7, 43, 68);
+    padding: 10px;
+    font-family: 'OnestRegular';
+    width: 100%;
+}
+input:focus, textarea:focus{
+    outline: none;
+    background-color: rgb(177, 220, 210);
+}
+@media (width < 640px){
+    .formulario div:nth-child(1){
+        grid-column: 1 / 3;
+    }
+    .formulario div:nth-child(2){
+        grid-column: 1 / 3;
+    }
+    .formulario div:nth-child(3){
+        grid-column: 1 / 3;
+    }
+    
+    .formulario div:nth-child(4){
+        grid-column: 1 / 3;
+    }
+    button{
+        width: 100%;
+    }
+}
+button{
+    width: 100%;
+}
+
+button:disabled{
+    background-color: rgba(20, 58, 60, 0.52);
+    color: rgb(128, 128, 128);
+    cursor: not-allowed;
+}
+
+.envio-exitoso{
+    background-color: rgba(85, 236, 85, 0.463);
+    display: block;
+    color: white;
+    margin: 10px 0;
+    text-align: center;
+    padding: 10px;
+    border-radius: 10px;
+    border: 1px solid green;
+}
+
+.envio-fallido{
+    background-color: rgba(236, 85, 85, 0.463);
+    display: block;
+    margin: 10px 0;
+    text-align: center;
+    color: white;
+    padding: 10px;
+    border-radius: 10px;
+    border: 1px solid red;
+}

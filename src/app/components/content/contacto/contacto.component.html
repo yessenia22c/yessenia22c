@@ -1,19 +1,41 @@
-<!-- <form action="" role="form">
-    <div class="form-group">
-        <label for="nombre">Nombre</label>
-        <input type="text" class="form-control" placeholder="Nombre">
-    </div>
-    <div class="form-group">
-        <label for="email">Correo electrónico</label>
-        <input type="email" class="form-control" placeholder="Correo electrónico">
-    </div>
-    <div class="form-group">
-        <label for="asunto">Asunto</label>
-        <input type="text" class="form-control" placeholder="Asunto">
-    </div>
-    <div class="form-group">
-        <label for="mensaje">Mensaje</label>
-        <textarea class="form-control" rows="3" placeholder="Mensaje"></textarea>
-    </div>
-    <button type="submit" class="btn btn-primary">Enviar</button>
-</form> -->
+<div class="contenedor-contacto">
+    <form class="formulario" [formGroup]="contactForm" (ngSubmit)="submitForm()">
+        <div>
+            <label for="name">Nombre:</label>
+            <input type="text" id="name" formControlName="name" placeholder="Tu nombre">
+            
+                @if (contactForm.get('name')?.hasError('required')) {
+                <span>El nombre <strong>es requerido</strong></span>
+                }
+        </div>
+    
+        <div>
+            <label for="email">Correo electrónico:</label>
+            <input type="email" id="email" formControlName="email" placeholder="tuemail@mail.com">
+            @if (contactForm.get('email')?.hasError('email')) {
+            <span>Introduce un correo electrónico válido</span>
+            }
+            @if (contactForm.get('email')?.hasError('required')) {
+            <span>El correo electrónico <strong>es requerido</strong></span>
+            }
+        </div>
+    
+        <div>
+            <label for="message">Mensaje:</label>
+            <textarea id="message" formControlName="message"></textarea>
+            @if (contactForm.get('message')?.hasError('required')) {
+                <span>El mensaje <strong>es requerido</strong></span>
+                }
+        </div>
+        <div>
+            <button type="submit" [disabled]="!contactForm.valid">Enviar</button>
+            @if(envioExitoso){
+                <span class="envio-exitoso">El mensaje ha sido enviado con éxito.</span>
+            }
+            @if (envioFallido) {
+                <span class="envio-fallido">Lo siento! Ha ocurrido un error al enviar el mensaje.</span>
+            }
+        </div>
+        
+    </form>
+</div>
