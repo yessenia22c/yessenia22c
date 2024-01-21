@@ -8,6 +8,7 @@
     width: auto;
     z-index: 50;
     top: 0;
+    box-sizing: border-box;
 }
 
 ul{
@@ -144,3 +145,13 @@ ul{
         width:1120px
     }
 } */
+@media (width < 640px){
+    .text-header{
+        font-size: 12px;
+        margin: 5px 4px;
+        white-space: nowrap;
+    }
+    .nav{
+        padding: 0;
+    }
+}

@@ -34,6 +34,7 @@
 .contenedor-botones-info{
     display: flex;
     justify-content: center;
+    gap: 8px;
 }
 .mi-correo{
     display: flex; 
@@ -85,8 +86,7 @@
     border: 1.5px solid #00BA95;
     border-radius: 10px;
     background-color: rgba(0, 6, 22, 0.281);
-    margin-top: 8px;
-    margin-right: 8px;
+    margin: 8px 0;
     font-family: 'OnestThin';
     
 }

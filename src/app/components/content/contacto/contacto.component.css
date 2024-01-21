@@ -39,7 +39,7 @@ input:focus, textarea:focus{
     outline: none;
     background-color: rgb(177, 220, 210);
 }
-@media (width < 640px){
+@media (width < 768px){
     .formulario div:nth-child(1){
         grid-column: 1 / 3;
     }
