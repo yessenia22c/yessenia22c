@@ -145,7 +145,7 @@ ul{
         width:1120px
     }
 } */
-@media (width < 640px){
+@media (width < 768px){
     .text-header{
         font-size: 12px;
         margin: 5px 4px;
