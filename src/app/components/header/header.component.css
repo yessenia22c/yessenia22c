@@ -5,7 +5,8 @@
     justify-content: center;
     padding: 18px 31px 18px 31px;
     position: sticky;
-    width: auto;
+    width: 100%;
+    max-width: 1120px;
     z-index: 50;
     top: 0;
     box-sizing: border-box;
@@ -31,13 +32,14 @@ ul{
     letter-spacing: 1px;
     margin-left: 8px;
     margin-right: 8px;
-    padding: 5px;
+    padding: 3px;
+    white-space: nowrap;
 }
 
 .text-header:hover{
     color: #00BA95;
     background-color: #4141412f;
-    padding: 5px;
+    padding: 3px;
     border-radius: 5px;
 }
 .icono-header{
@@ -83,7 +85,7 @@ ul{
     border: 1px solid #E7FFFA;
     max-width: 920px;
     border-radius: 30px;
-    padding: 8px;
+    padding: 2px;
 }
 
 @media (min-width: 640px) {
@@ -150,6 +152,7 @@ ul{
         font-size: 12px;
         margin: 5px 4px;
         white-space: nowrap;
+        padding: 3px;
     }
     .nav{
         padding: 0;
