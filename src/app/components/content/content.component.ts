@@ -25,7 +25,12 @@ export class ContentComponent {
     this.http.get(pdfUrl, { responseType: 'arraybuffer' })
       .subscribe((data: ArrayBuffer) => {
         const blob = new Blob([data], { type: 'application/pdf' });
-        saveAs(blob, 'CV-Yessenia-Villarte.pdf');
+        // Guardar el archivo
+
+        //saveAs(blob, 'CV-Yessenia-Villarte.pdf');
+        // Abrir el archivo en otra pestaña
+        const fileUrl = URL.createObjectURL(blob);
+        window.open(fileUrl, '_blank');
       }, error => {
         console.error('Error al descargar el PDF', error);
       });
