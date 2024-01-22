@@ -1,7 +1,7 @@
 <div class="contenedor-contacto">
     <form class="formulario" [formGroup]="contactForm" (ngSubmit)="submitForm()">
         <div>
-            <label for="name">Nombre:</label>
+            <label for="name">Nombre y apellido:</label>
             <input type="text" id="name" formControlName="name" placeholder="Tu nombre">
             
                 @if (contactForm.get('name')?.hasError('required')) {
