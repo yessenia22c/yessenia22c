@@ -20,7 +20,7 @@ export class ContentComponent {
         window.open('mailto:yesseniavillarte@gmail.com', '_blank');
     }
     downloadCv(){
-        const pdfUrl = 'assets/document/CV-Yessenia_Villarte.pdf';
+        const pdfUrl = 'assets/document/CV-Yessenia-Villarte-Tec-Informatica.pdf';
 
     this.http.get(pdfUrl, { responseType: 'arraybuffer' })
       .subscribe((data: ArrayBuffer) => {
