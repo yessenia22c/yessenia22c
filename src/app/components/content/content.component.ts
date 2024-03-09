@@ -5,13 +5,14 @@ import { HabilidadesComponent } from "./habilidades/habilidades.component";
 import { ContactoComponent } from "./contacto/contacto.component";
 import { HttpClient } from '@angular/common/http';
 import { saveAs } from 'file-saver';
+import { ProyectosComponent } from "./proyectos/proyectos.component";
 
 @Component({
     selector: 'app-content',
     standalone: true,
     templateUrl: './content.component.html',
     styleUrl: './content.component.css',
-    imports: [CardsProyectosComponent, ExperienciaComponent, HabilidadesComponent, ContactoComponent]
+    imports: [CardsProyectosComponent, ExperienciaComponent, HabilidadesComponent, ContactoComponent, ProyectosComponent]
 })
 export class ContentComponent {
     constructor(private http: HttpClient) {}

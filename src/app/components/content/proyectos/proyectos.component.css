@@ -1,0 +1,61 @@
+.iconos-tecnologias{
+    width: 30px;
+    height: 30px;
+    margin-left: 5px;
+}
+.contenedor-proyectos{
+    border-radius: 30px;
+  background-color: linear-gradient(to bottom, rgba(0, 19, 46, 1) 0%,rgba(0, 76, 120, 0.28133621215820315) 100%);
+  border: 0.7px solid rgba(0, 186, 149, 1);
+  box-shadow: 12px 12px 18px 0px rgba(0, 0, 0, 0.2);
+  padding: 2rem;
+}
+
+.descripcion-proyecto{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.proyecto{
+    display: flex;
+    flex-direction: column;
+    padding-left: 27px;
+}
+
+img{
+    max-width: 100%;
+    height: 300px;
+    object-fit:cover;
+    object-position:center center;
+    border-radius: 15px;
+}
+h3{
+    color: white;
+    font-size: 22px;
+    margin-bottom: 0.5rem;
+}
+.contenedor-botones{
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+@media screen and (max-width: 768px){
+    .contenedor-proyectos{
+        padding: 1rem;
+    }
+    .descripcion-proyecto{
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    .proyecto{
+        padding-left: 0;
+    }
+    img{
+        max-width: 100%;
+        height: auto;
+    }
+    h3{
+        font-size: 18px;
+    }
+    
+}
