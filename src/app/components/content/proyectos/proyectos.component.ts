@@ -9,9 +9,13 @@ import { Component } from '@angular/core';
 })
 export class ProyectosComponent {
   linkSisicap() {
-    window.open('https://cliente-angular-9k9.pages.dev', '_blank');
+    window.open('https://frontend-sisicap.vercel.app', '_blank');
   }
   linkTienda() {
     window.open('https://www.eliteiso.org/cursos', '_blank');
   }
+  linkIADetectaEstafa() {
+    window.open('https://ai-detecta-estafa.vercel.app', '_blank');
+  }
 }
+
