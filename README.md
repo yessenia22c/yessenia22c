@@ -1,5 +1,5 @@
-<h1 align="center">Hi 👋, I'm Yessenia</h1>
-<h3 align="center">A passionate frontend and Backend developer from Bolivia</h3>
+<h1 align="center">Hola 👋, Soy Yessenia</h1>
+<h3 align="center">Una apasionada desarrolladora web tanto en frontend como backend</h3>
 <div align="center">
    
    ![Yessenia villarte's GitHub stats](https://github-readme-stats.vercel.app/api?username=yessenia22c&show_icons=true&locale=es&theme=radical#gh-dark-mode-only)
