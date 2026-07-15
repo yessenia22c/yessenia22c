@@ -21,7 +21,7 @@ export class ContentComponent {
         window.open('mailto:yesseniavillarte@gmail.com', '_blank');
     }
     downloadCv(){
-        const pdfUrl = 'assets/document/CV-Yessenia-Villarte-Tec-Informatica.pdf';
+        const pdfUrl = 'assets/document/CV-SF-YESSENIA-VILLARTE-dw.pdf';
 
     this.http.get(pdfUrl, { responseType: 'arraybuffer' })
       .subscribe((data: ArrayBuffer) => {
