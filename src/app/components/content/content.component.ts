@@ -18,7 +18,7 @@ export class ContentComponent {
     constructor(private http: HttpClient) {}
 
     abrirCorreo(){
-        window.open('mailto:yesseniavillarte@gmail.com', '_blank');
+        window.open('mailto:yessenia.contactos@gmail.com', '_blank');
     }
     downloadCv(){
         const pdfUrl = 'assets/document/CV-SF-YESSENIA-VILLARTE-dw.pdf';
