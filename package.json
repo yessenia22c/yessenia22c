@@ -1,6 +1,9 @@
 {
   "name": "portafolio-v17-yessi",
   "version": "0.0.0",
+  "engines": {
+    "node": "24.x"
+  },
   "scripts": {
     "ng": "ng",
     "start": "ng serve",
