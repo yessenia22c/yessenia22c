@@ -26,9 +26,14 @@ export class HabilidadesComponent {
       tools: ['C# / .NET', 'Node.js', 'APIs REST', 'WhatsApp Business Cloud API', 'Cybersource', 'Openpay Perú']
     },
     {
-      title: 'Bases de datos y herramientas',
-      description: 'Persistencia de información, control de versiones y despliegue.',
-      tools: ['SQL Server', 'PostgreSQL', 'MongoDB', 'Docker', 'Git / GitHub', 'Linux / Ubuntu']
+      title: 'Bases de datos e infraestructura',
+      description: 'Persistencia de información y herramientas de entorno.',
+      tools: ['SQL Server', 'PostgreSQL', 'MongoDB', 'Docker', 'Linux / Ubuntu']
+    },
+    {
+      title: 'Control de versiones, pruebas y CI/CD',
+      description: 'Flujos de desarrollo, validación y entrega continua.',
+      tools: ['Git', 'GitHub', 'GitHub Actions', 'CI/CD', 'Creación y ejecución de pruebas', 'Despliegues automáticos a test']
     },
     {
       title: 'Inteligencia artificial y automatización',
